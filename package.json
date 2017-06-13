@@ -1,0 +1,35 @@
+{
+  "name": "hypem-audio",
+  "version": "0.0.1",
+  "description": "Scrapes [Hype Machine](http://hypem.com) url to get audio stream urls",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/hypem-audio"
+  },
+  "keywords": [
+    "hype machine",
+    "audio",
+    "scrape"
+  ],
+  "author": {
+    "name": "Miguel Mota",
+    "email": "hello@miguelmota.com",
+    "url": "https://miguelmota.com/"
+  },
+  "homepage": "https://github.com/miguelmota/hypem-audio",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/miguelmota/hypem-audio/blob/master/LICENSE.md"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
